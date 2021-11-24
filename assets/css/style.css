@@ -1,0 +1,97 @@
+
+body{
+padding: 0;
+font-family: 'Outfit', sans-serif;
+}
+
+.navimg {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: "bags watch shoes";
+    gap: 20px;
+}
+
+.shoes {
+    grid-area: shoes;
+    background-image: url(/assets/img/shoes.jpg);
+    background-position: center;
+    background-size: cover;
+
+}
+
+.linkone {
+    padding: 160px 0 10px 19px;
+    font-size: 30px;
+}
+
+
+.linktwo {
+    padding-left: 19px;
+}
+
+.watch {
+    grid-area: watch;
+    background-image: url(/assets/img/watch.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.bags {
+    grid-area: bags;
+    background-image: url(/assets/img/bags.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.nav2 {
+    
+    padding-left: -10px;
+}
+
+img {
+   width: 100%;
+
+}
+.block {
+    display: grid; 
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 20px;
+}
+
+.blockone {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: "shipping hours .";
+
+}
+
+.shipping {
+    grid-area: shipping;
+    font-size: 12px;
+}
+
+.hours {
+    grid-area: hours;
+}
+
+.menu {
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 15px;
+}
+
+.lock {
+    margin: 20px;
+    list-style-type: none;
+    font-size: 25px;
+}
+
+.menu div ul li a {
+    text-decoration: none;
+    color: gray;
+}

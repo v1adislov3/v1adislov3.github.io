@@ -7,6 +7,35 @@ min-height: 100vh;
 font-size: 10px;
 }
 
+
+.linkone {
+    padding: 140px 0 10px 19px;
+    font-size: 22px;
+}
+
+.shoes {
+    grid-area: shoes;
+    background-image: url(/assets/img/shoes.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.watch {
+    grid-area: watch;
+    background-image: url(/assets/img/watch.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+
+.bags {
+    grid-area: bags;
+    background-image: url(/assets/img/bags.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+
 nav {
     display: grid;
     grid-template-columns: auto;
@@ -17,9 +46,15 @@ nav {
                          "acc"
                          "shopcard"
                          "chekt";
+}
 
-    
-    
+.navimg {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas: "bags"
+                        "watch" 
+                         "shoes";
 }
 
 .menu div ul li a {

@@ -16,16 +16,18 @@
 
 }
 
+input:valid + small{
+    display: none;
+}
+
+input:valid + small + small {
+    display: block;
+}
 
 small + small  {
     display: none;
 }
-input:valid + small{
-    display: none;
-}
-input:valid + small + small {
-    display: block;
-}
+
 
 .butt {
     text-align: center;

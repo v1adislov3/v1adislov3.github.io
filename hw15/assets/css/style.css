@@ -4,14 +4,28 @@
     box-sizing: border-box;
 }
 
-.nav {
-    margin-bottom: 200px;
+body {
+    font-family: 'Comfortaa', cursive;
+}
+
+
+
+.nav li a {
+    color: green;
+}
+
+.nav li a:active{
+    color: green;
+}
+
+.nav li a:hover {
+    color: green;
 }
 
 .phone-number {
     width: 50vh;
     margin: 0 auto;
-    border: 2px solid blue;
+    border: 1px solid rgb(139 139 139);
     padding: 55px;
 
 }
@@ -31,4 +45,12 @@ small + small  {
 
 .butt {
     text-align: center;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+    display: block;
+    margin-bottom: 20px;
 }
